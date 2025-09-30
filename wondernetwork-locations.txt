@@ -1,0 +1,274 @@
+WonderNetwork Server Locations
+267 locations, 98 countries, 6 continents
+
+Name                Location              Country
+================================================================================
+Accra               Accra                 Ghana
+Adelaide            Adelaide              Australia
+Albany              Latham                United States
+Alblasserdam        Alblasserdam          Netherlands
+Albuquerque         Albuquerque           United States
+Algiers             Algiers               Algeria
+Almaty              Almaty                Kazakhstan
+Amsterdam           Haarlemmermeer        Netherlands
+Ankara              Ankara                Turkey
+Antwerp             Antwerp               Belgium
+Arezzo              Arezzo                Italy
+Asheville           Asheville             United States
+Asuncion            Asuncion              Paraguay
+Athens              Athens                Greece
+Atlanta             Atlanta               United States
+Auckland            Auckland              New Zealand
+Austin              Austin                United States
+Baku                Baku                  Azerbaijan
+Baltimore           Baltimore             United States
+Bangalore           Bangalore             India
+Bangkok             Bangkok               Thailand
+Barcelona           Barcelona             Spain
+Basel               Basel                 Switzerland
+Beirut              Beirut                Lebanon
+Belfast             Belfast               United Kingdom
+Belgrade            Belgrade              Serbia
+Bergen              Bergen                Norway
+Berlin              Berlin                Germany
+Bern                Bern                  Switzerland
+Billings            Billings              United States
+Bishkek             Bishkek               Kyrgyzstan
+Bogota              Bogota                Colombia
+Boston              Somerville            United States
+Brasilia            Brasilia              Brazil
+Bratislava          Bratislava            Slovakia
+Brazzaville         Brazzaville           Congo
+Brisbane            Brisbane              Australia
+Bristol             Bristol               United Kingdom
+Brno                Brno                  Czech Republic
+Brunswick           Brunswick             United States
+Brussels            Brussels              Belgium
+Bucharest           Bucharest             Romania
+Budapest            Budapest              Hungary
+Buenos Aires        Buenos Aires          Argentina
+Buffalo             Buffalo               United States
+Bursa               Bursa                 Turkey
+Cairo               10th of Ramadan City  Egypt
+Calgary             Calgary               Canada
+Canberra            Canberra              Australia
+Cape Town           Cape Town             South Africa
+Caracas             Caracas               Venezuela
+Cardiff             Cardiff               United Kingdom
+Carlow              Carlow                Ireland
+Charlotte           Charlotte             United States
+Cheltenham          Cheltenham            United Kingdom
+Chennai             Chennai               India
+Cheyenne            Cheyenne              United States
+Chicago             Chicago               United States
+Chisinau            Chisinau              Moldova
+Christchurch        Christchurch          New Zealand
+Cincinnati          Cincinnati            United States
+Clark               Clark                 Philippines
+Cleveland           Mentor                United States
+Cluj Napoca         Cluj Napoca           Romania
+Colorado Springs    Colorado Springs      United States
+Columbus            Columbus              United States
+Copenhagen          Copenhagen            Denmark
+Coventry            Coventry              United Kingdom
+Cromwell            Cromwell              United States
+Dagupan             Dagupan               Philippines
+Dallas              Dallas                United States
+Dar es Salaam       Dar es Salaam         Tanzania
+Denver              Denver                United States
+Des Moines          Des Moines            United States
+Detroit             Detroit               United States
+Dhaka               Dhaka                 Bangladesh
+Douglas             Douglas               Isle of Man
+Dronten             Dronten               Netherlands
+Dubai               Dubai                 United Arab Emirates
+Dublin              Dublin                Ireland
+Dusseldorf          Dusseldorf            Germany
+Edinburgh           Edinburgh             United Kingdom
+Edmonton            St Albert             Canada
+Eindhoven           Eindhoven             Netherlands
+Falkenberg          Falkenberg            Sweden
+Falkenstein         Falkenstein           Germany
+Fez                 Fez                   Morocco
+Frankfurt           Frankfurt             Germany
+Fremont             Fremont               United States
+Frosinone           Frosinone             Italy
+Gdansk              Gdansk                Poland
+Geneva              Vernier               Switzerland
+Gosport             Gosport               United Kingdom
+Graz                Graz                  Austria
+Green Bay           Green Bay             United States
+Groningen           Groningen             Netherlands
+Guadalajara         Guadalajara           Mexico
+Guatemala           Guatemala City        Guatemala
+Halifax             Halifax               Canada
+Hamburg             Hamburg               Germany
+Hangzhou            Hangzhou              China
+Hanoi               Hanoi                 Vietnam
+Helsinki            Espoo                 Finland
+Heredia             San Jose              Costa Rica
+Ho Chi Minh City    Ho Chi Minh City      Vietnam
+Hong Kong           Hong Kong             Hong Kong
+Honolulu            Honolulu              United States
+Houston             Houston               United States
+Hyderabad           Hyderabad             India
+Iasi                Iasi                  Romania
+Indianapolis        Indianapolis          United States
+Indore              Indore                India
+Istanbul            Istanbul              Turkey
+Izmir               Izmir                 Turkey
+Jackson             Jackson               United States
+Jacksonville        Jacksonville          United States
+Jakarta             Jakarta               Indonesia
+Jerusalem           Jerusalem             Israel
+Joao Pessoa         Patos                 Brazil
+Johannesburg        Johannesburg          South Africa
+Kampala             Kampala               Uganda
+Kansas City         Kansas City           United States
+Karachi             Karachi               Pakistan
+Karaganda           Karaganda             Kazakhstan
+Kazan               Kazan                 Russia
+Khabarovsk          Khabarovsk            Russia
+Kharkiv             Kharkiv               Ukraine
+Knoxville           Knoxville             United States
+Koto                Koto                  Japan
+Ktis                Ktis                  Czech Republic
+Kuala Lumpur        Kuala Lumpur          Malaysia
+Kyiv                Kyiv                  Ukraine
+La Paz              La Paz                Bolivia
+Lagos               Lagos                 Nigeria
+Lahore              Lahore                Pakistan
+Lansing             Lansing               United States
+Las Vegas           Las Vegas             United States
+Lausanne            Lausanne              Switzerland
+Liege               Liege                 Belgium
+Lima                Lima                  Peru
+Limassol            Limassol              Cyprus
+Lincoln             Lincoln               United States
+Lisbon              Lisbon                Portugal
+Ljubljana           Ljubljana             Slovenia
+London              London                United Kingdom
+Los Angeles         Los Angeles           United States
+Lugano              Lugano                Switzerland
+Luxembourg          Steinsel              Luxembourg
+Lyon                Lyon                  France
+Madrid              Madrid                Spain
+Maidstone           Maidstone             United Kingdom
+Manchester          Manchester            United Kingdom
+Manhattan           New York City         United States
+Manila              Manila                Philippines
+Marseille           Marseille             France
+Medellin            Medellin              Colombia
+Melbourne           Melbourne             Australia
+Memphis             Memphis               United States
+Mexico City         Mexico City           Mexico
+Miami               Miami                 United States
+Milan               Milan                 Italy
+Milwaukee           Milwaukee             United States
+Minneapolis         Minneapolis           United States
+Montevideo          Pando                 Uruguay
+Monticello          Monticello            United States
+Montreal            Laval                 Canada
+Moscow              Moscow                Russia
+Mumbai              Mumbai                India
+Munich              Munich                Germany
+Muscat              Muscat                Oman
+Nairobi             Nairobi               Kenya
+New Delhi           New Delhi             India
+New Orleans         New Orleans           United States
+New York            Garden City           United States
+Newcastle           Newcastle             United Kingdom
+Novi Travnik        Novi Travnik          Bosnia and Herzegovina
+Novosibirsk         Novosibirsk           Russia
+Nuremberg           Nuremberg             Germany
+Orlando             Orlando               United States
+Osaka               Osaka                 Japan
+Oslo                Oslo                  Norway
+Ottawa              Ottawa                Canada
+Oulu                Oulu                  Finland
+Palermo             Palermo               Italy
+Panama              Panama City           Panama
+Paris               Paris                 France
+Perth               Perth                 Australia
+Philadelphia        Philadelphia          United States
+Phnom Penh          Phnom Penh            Cambodia
+Phoenix             Phoenix               United States
+Piscataway          Piscataway            United States
+Pittsburgh          Pittsburgh            United States
+Portland            Portland              United States
+Prague              Prague                Czech Republic
+Pune                Pune                  India
+Quebec City         Quebec City           Canada
+Quito               Quito                 Ecuador
+Raleigh             Cary                  United States
+Redding             Redding               United States
+Reykjavik           Hafnarfjordur         Iceland
+Riga                Riga                  Latvia
+Riyadh              Riyadh                Saudi Arabia
+Rome                Rome                  Italy
+Roseburg            Roseburg              United States
+Roubaix             Roubaix               France
+Sacramento          Sacramento            United States
+Salem               Salem                 United States
+Salt Lake City      Salt Lake City        United States
+San Antonio         San Antonio           United States
+San Diego           San Diego             United States
+San Francisco       San Francisco         United States
+San Jose            San Jose              United States
+San Juan            San Juan              Puerto Rico
+Santiago            Santiago              Chile
+Sao Paulo           Sao Paulo             Brazil
+Saskatoon           Saskatoon             Canada
+Savannah            Savannah              United States
+Scranton            Scranton              United States
+Seattle             Seattle               United States
+Secaucus            Secaucus              United States
+Seoul               Seoul                 South Korea
+Seville             Seville               Spain
+Shanghai            Shanghai              China
+Shenzhen            Shenzhen              China
+Siauliai            Siauliai              Lithuania
+Singapore           Singapore             Singapore
+Skopje              Skopje                North Macedonia
+Sofia               Sofia                 Bulgaria
+Spokane             Liberty Lake          United States
+St Louis            St Louis              United States
+St Petersburg       St Petersburg         Russia
+Stockholm           Stockholm             Sweden
+Strasbourg          Strasbourg            France
+Sydney              Sydney                Australia
+Syracuse            Syracuse              United States
+Taipei              Taipei                Taiwan
+Tallinn             Tallinn               Estonia
+Tampa               Tampa                 United States
+Tashkent            Tashkent              Uzbekistan
+Tbilisi             Tbilisi               Georgia
+Tel Aviv            Tel Aviv              Israel
+The Hague           The Hague             Netherlands
+Thessaloniki        Thessaloniki          Greece
+Tirana              Tirana                Albania
+Tokyo               Tokyo                 Japan
+Toledo              Toledo                United States
+Toronto             Toronto               Canada
+Tunis               Tunis                 Tunisia
+Valencia            Valencia              Spain
+Valletta            Valletta              Malta
+Vancouver           Vancouver             Canada
+Varna               Varna                 Bulgaria
+Venice              Noventa di Piave      Italy
+Vienna              Vienna                Austria
+Vientiane           Vientiane             Laos
+Vilnius             Vilnius               Lithuania
+Warsaw              Warsaw                Poland
+Washington          Herndon               United States
+Wellington          Wellington            New Zealand
+Westpoort           Westpoort             Netherlands
+Wilmington          Wilmington            United States
+Winnipeg            Winnipeg              Canada
+Yangon              Yangon                Myanmar
+Yerevan             Yerevan               Armenia
+Zagreb              Zagreb                Croatia
+Zhangjiakou         Zhangjiakou           China
+Zurich              Zurich                Switzerland
+
+Source: WonderNetwork (wondernetwork.com)
