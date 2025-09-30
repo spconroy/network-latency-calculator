@@ -27,16 +27,25 @@ Add a Custom HTML block below your iframe and paste this code:
 
 ```html
 <script>
-window.addEventListener('message', function(e) {
-    // Check if the message is a resize request
-    if (e.data && e.data.type === 'resize') {
-        const iframe = document.querySelector('#network-calculator-iframe');
-        if (iframe && e.data.height) {
-            // Add 20px buffer for smooth scrolling
-            iframe.style.height = (e.data.height + 20) + 'px';
+(function() {
+    let lastHeight = 0;
+
+    window.addEventListener('message', function(e) {
+        // Check if the message is a resize request
+        if (e.data && e.data.type === 'resize') {
+            const iframe = document.querySelector('#network-calculator-iframe');
+            if (iframe && e.data.height) {
+                const newHeight = e.data.height + 20; // Add 20px buffer
+
+                // Only update if height has changed (prevents loops)
+                if (newHeight !== lastHeight) {
+                    lastHeight = newHeight;
+                    iframe.style.height = newHeight + 'px';
+                }
+            }
         }
-    }
-});
+    });
+})();
 </script>
 ```
 
@@ -46,11 +55,19 @@ If you want this to work site-wide, add this to your theme's footer.php or use a
 ```javascript
 <script>
 (function() {
+    let lastHeight = 0;
+
     window.addEventListener('message', function(e) {
         if (e.data && e.data.type === 'resize') {
             const iframe = document.querySelector('#network-calculator-iframe');
             if (iframe && e.data.height) {
-                iframe.style.height = (e.data.height + 20) + 'px';
+                const newHeight = e.data.height + 20; // Add 20px buffer
+
+                // Only update if height has changed (prevents loops)
+                if (newHeight !== lastHeight) {
+                    lastHeight = newHeight;
+                    iframe.style.height = newHeight + 'px';
+                }
             }
         }
     });
@@ -75,30 +92,55 @@ To:
 And in the WordPress listener script, add origin checking:
 
 ```javascript
-window.addEventListener('message', function(e) {
-    // Only accept messages from your calculator domain
-    if (e.origin !== 'https://your-deployed-url.com') return;
+(function() {
+    let lastHeight = 0;
 
-    if (e.data && e.data.type === 'resize') {
-        const iframe = document.querySelector('#network-calculator-iframe');
-        if (iframe && e.data.height) {
-            iframe.style.height = (e.data.height + 20) + 'px';
+    window.addEventListener('message', function(e) {
+        // Only accept messages from your calculator domain
+        if (e.origin !== 'https://your-deployed-url.com') return;
+
+        if (e.data && e.data.type === 'resize') {
+            const iframe = document.querySelector('#network-calculator-iframe');
+            if (iframe && e.data.height) {
+                const newHeight = e.data.height + 20;
+
+                // Only update if height has changed (prevents loops)
+                if (newHeight !== lastHeight) {
+                    lastHeight = newHeight;
+                    iframe.style.height = newHeight + 'px';
+                }
+            }
         }
-    }
-});
+    });
+})();
 ```
 
 ## How it Works
 
 1. The calculator sends its height to the parent window whenever:
    - The page loads
-   - The window is resized
-   - The DOM changes (tabs switched, results displayed, etc.)
+   - The window is resized (debounced to 100ms)
+   - The DOM changes (tabs switched, results displayed, etc.) (debounced to 100ms)
    - Every 500ms as a fallback
 
 2. Your WordPress page listens for these messages and updates the iframe height accordingly
 
 3. The iframe height adjusts automatically, eliminating scrollbars and providing a seamless embedded experience
+
+### Loop Prevention
+
+Both the iframe content and the WordPress listener include loop prevention:
+
+**Iframe side (calculator):**
+- Only sends messages when height actually changes (compares with `lastHeight`)
+- Debounces rapid changes (100ms delay for resize/DOM changes)
+- Uses 500ms interval for periodic checks to catch missed changes
+
+**WordPress side (listener):**
+- Only updates iframe height when the new height is different (compares with `lastHeight`)
+- Prevents unnecessary style updates that could trigger resize events
+
+This prevents infinite messaging loops while ensuring the iframe always has the correct height.
 
 ## Testing
 

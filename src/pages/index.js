@@ -3,9 +3,19 @@ import { LatencyCalculator } from "../components/latency_calculator";
 
 export default function Home() {
   useEffect(() => {
+    let lastHeight = 0;
+    let resizeTimeout = null;
+
     // Function to send height to parent window (for iframe embedding)
     function sendHeight() {
       const height = document.documentElement.scrollHeight;
+
+      // Only send if height has changed (prevents infinite loops)
+      if (height === lastHeight) {
+        return;
+      }
+
+      lastHeight = height;
 
       // Send message to parent window if embedded in iframe
       if (window.parent !== window) {
@@ -16,14 +26,22 @@ export default function Home() {
       }
     }
 
+    // Debounced version to prevent excessive calls
+    function debouncedSendHeight() {
+      if (resizeTimeout) {
+        clearTimeout(resizeTimeout);
+      }
+      resizeTimeout = setTimeout(sendHeight, 100);
+    }
+
     // Send height on initial load
     sendHeight();
 
-    // Send height when window resizes
-    window.addEventListener('resize', sendHeight);
+    // Send height when window resizes (debounced)
+    window.addEventListener('resize', debouncedSendHeight);
 
-    // Use MutationObserver to detect DOM changes and resize accordingly
-    const observer = new MutationObserver(sendHeight);
+    // Use MutationObserver to detect DOM changes and resize accordingly (debounced)
+    const observer = new MutationObserver(debouncedSendHeight);
     observer.observe(document.body, {
       childList: true,
       subtree: true,
@@ -31,14 +49,17 @@ export default function Home() {
       characterData: true
     });
 
-    // Send height periodically to catch any dynamic changes
+    // Send height periodically to catch any dynamic changes (every 500ms)
     const interval = setInterval(sendHeight, 500);
 
     // Cleanup
     return () => {
-      window.removeEventListener('resize', sendHeight);
+      window.removeEventListener('resize', debouncedSendHeight);
       observer.disconnect();
       clearInterval(interval);
+      if (resizeTimeout) {
+        clearTimeout(resizeTimeout);
+      }
     };
   }, []);
 
