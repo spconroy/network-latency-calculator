@@ -64,8 +64,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col justify-start items-center p-8 pb-20 sm:p-20 font-sans">
-      <main className="flex flex-col gap-8 items-center sm:items-start mt-16">
+    <div className="flex flex-col justify-start items-center p-4 sm:p-6 md:p-8 font-sans">
+      <main className="flex flex-col gap-4 sm:gap-6 items-center sm:items-start w-full">
         <LatencyCalculator />
       </main>
     </div>
